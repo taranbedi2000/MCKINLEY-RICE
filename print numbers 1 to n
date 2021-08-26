@@ -1,0 +1,7 @@
+function solve(n){
+        solve(n-1)
+        conole.log(n)
+    }
+  var x= prompt("enter a value",'1')
+  var num1=parseInt(x);
+  solve(x)
